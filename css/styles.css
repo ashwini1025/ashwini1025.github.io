@@ -5378,10 +5378,11 @@ a.close.disabled {
 .modal {
   position: fixed;
   top: 0;
-  left: 550px;
+  left: 0;
+  right: 0;
   z-index: 1050;
   display: none;
-  width: 800px;
+  width: auto;
   height: auto;
   overflow: hidden;
   outline: 0;
