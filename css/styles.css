@@ -10,9 +10,9 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
-
  
+
+ /*  This is for anime JS */
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -1082,7 +1082,9 @@ pre code {
 
   .col-md-4 {
     flex: 0 0 33.3333333333%;
+    display: block;
     max-width: 33.3333333333%;
+    
   }
 
   .col-md-5 {
